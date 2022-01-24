@@ -5,10 +5,12 @@
     box-sizing: border-box;
     font-family: 'Montserrat';
 }
+body{
+    background-color: #E5E5E5;
+}
 .nav-link:hover {
     background-color: #d2d3c5 !important
 }
-
 .nav-link .fa {
     transition: all 1s
 }
@@ -19,6 +21,7 @@
 .Sidbar{
     background: #FAFFC1;
     height: 100vh;
+    width: 240px;
 }
 .E-classe{
     font-size: medium;
@@ -32,56 +35,14 @@
 .nav{
     font-size: 80%;
 }
-
-.table-theme {
-    border-spacing: 0
+.nvr{
+    font-size: small;
 }
-
-.table-theme thead {
-    font-size: .7rem
+.tab{
+    font-size: smaller;
 }
-
-.table-theme tbody td {
-    background-color: #fff;
-    border-width: 0;
-    box-shadow: 0 1px 0 rgba(160, 175, 185, .05), 0 -1px 0 rgba(160, 175, 185, .05)
-}
-
-.table-theme tbody td:first-child {
-    border-radius: .25rem 0 0 .25rem
-}
-
-.table-theme tbody td:last-child {
-    border-radius: 0 .25rem .25rem 0
-}
-.img:first-child {
-    border-radius: .25rem 0 0 .25rem
-}
-.img:first-child :last-child {
-    border-radius: 0 .25rem .25rem 0
-}
-
-.table-row {
-    border-spacing: 0 10px !important;
-    border-collapse: separate !important;
-}
-body{
-    background-color: #e7e7e3 !important
-
-}
-@media screen and (max-width: 1080px){
- 
+@media screen and (max-width: 900px){
    .nvr{
     font-size: x-small;
    } 
-   .Sidbar{
-
-    display: none !important;
- 
- }
- 
- .nvr{
-  font-size: x-small;
- }
- 
 }
